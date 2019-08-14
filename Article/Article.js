@@ -164,6 +164,6 @@ data.forEach(d => {
   articles.appendChild(article)
 
 });
-const article = createArticle(data[0]);
-console.log(article);
+//const article = createArticle(data[0]);
+//console.log(article);
 
