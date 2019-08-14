@@ -85,6 +85,15 @@ const data = [
     thirdParagraph: `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
+  },
+  {
+    title: "Jenny in lambda school",
+    date: "August 13th, 2019",
+    firstParagraph: "Hard work!! __ hard work!! __ hard work!! __ hard work!! __ hard work!! __ hard work!! __ hard work!! __ hard work!! __ hard work!! __ hard work!! __ hard work! __ hard work!! __ hard work!! ",
+
+    secondParagraph: "20 mins rule__get help!20 mins rule__get help!20 mins rule__get help!20 mins rule__get help!20 mins rule__get help!20 mins rule__get help!20 mins rule__get help!20 mins rule__get help!20 mins rule__get help!20 mins rule__get help!20 mins rule__get help! ", 
+
+    thirdParagraph: "Project, application, portfolio, careerAssignment!Project, application, portfolio, careerAssignment!Project, application, portfolio, careerAssignment!Project, application, portfolio, careerAssignment!Project, application, portfolio, careerAssignment!Project, application, portfolio, careerAssignment!Project, application, portfolio, careerAssignment!Project, application, portfolio, careerAssignment! "
   }
 ];
 
