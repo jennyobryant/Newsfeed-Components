@@ -96,7 +96,7 @@ const data = [
 
     {three separate paragraph elements}
 
-    <span class='expandButton'></span>
+    <span class='expandButton'>Read More</span>
   </div>
 
   Hint: You will need to use createElement more than once here!
@@ -112,3 +112,49 @@ const data = [
   Step 5: Add a new article to the array. Make sure it is in the same format as the others. Refresh the page to see the new artible
 
 */
+
+function createArticle(props){
+  let div = document.createElement("div");
+  div.setAttribute("class", "article")
+
+  let h2 = document.createElement("h2"); 
+  h2.textContent = props.title;
+  div.appendChild(h2);
+
+  let p = document.createElement("p"); 
+  p.textContent = props.date;
+  p.setAttribute("class", "date")
+  div.appendChild(p);
+
+  let firstParagraph = document.createElement("firstParagraph")
+  firstParagraph.textContent = props.firstParagraph; 
+  div.appendChild(firstParagraph); 
+
+  let secondParagraph = document.createElement("secondParagraph")
+  secondParagraph.textContent = props.secondParagraph; 
+  div.appendChild(secondParagraph); 
+
+  let thirdParagraph = document.createElement("thirdParagraph")
+  thirdParagraph.textContent = props.thirdParagraph; 
+  div.appendChild(thirdParagraph); 
+
+  let span = document.createElement("span"); 
+  span.textContent = "Read More"; 
+  span.setAttribute("class", "expandButton")
+  div.appendChild(span); 
+
+  span.addEventListener("click", (event) => {
+    div.classList.toggle("article-open"); 
+  });
+
+  return div;
+}
+let articles = document.querySelector(".articles");
+data.forEach(d => {
+  const article = createArticle(d);
+  articles.appendChild(article)
+
+});
+const article = createArticle(data[0]);
+console.log(article);
+
